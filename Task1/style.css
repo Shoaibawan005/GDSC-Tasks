@@ -1,0 +1,132 @@
+
+.header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 19vh;
+    background-color: rgb(15, 218, 140);
+}
+
+.header_conntent {
+
+    max-width: 80%;
+    width: fit-content;
+    /* text-align: center; */
+    font-size: x-large;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(110, 220, 176);
+}
+
+.content{
+
+    display: flex;
+    grid-column-gap: 5px;
+    background-color: rgb(228, 117, 117);
+    min-height: 60vh;
+}
+
+.aside {
+
+    flex: 30%;
+    margin: 5px 5px 5px 0px;
+    background-color: rgb(8, 188, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aside_content{
+
+    max-width: 80%;
+    width: fit-content;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(110, 220, 176);
+
+}
+
+.article {
+    flex: 70%;
+    margin: 5px 0px 5px 5px;
+    background-color: rgb(188, 8, 8);
+}
+
+.article_content{
+
+    margin-left: 40%;
+    margin-top: 10%;
+    max-width: 80%;
+    width: fit-content;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(237, 37, 37);
+
+}
+
+.images{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px;
+    margin-left: 20%;
+}
+
+.image_design{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 10%;
+    width: 12%;
+    padding: 5%;
+    margin: 5px;
+    background-color: gray;
+
+}
+
+.image_content{
+
+    max-width: 80%;
+    width: fit-content;
+    text-align: center;
+    /* font-size: x-large; */
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(210, 206, 206);
+}
+
+
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 18vh;
+    background-color: rgb(15, 218, 140);
+}
+
+.footer_conntent {
+
+    max-width: 80%;
+    width: fit-content;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    background-color: rgb(110, 220, 176);
+}
+
+
