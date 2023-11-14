@@ -29,8 +29,8 @@
 }
 
 .aside {
-
-    flex: 30%;
+    
+    flex: 30%; /* for partioning */
     margin: 5px 5px 5px 0px;
     background-color: rgb(8, 188, 98);
     display: flex;
