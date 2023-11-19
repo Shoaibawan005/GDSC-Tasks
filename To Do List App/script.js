@@ -1,4 +1,3 @@
-
 const toDoList = document.getElementById("todoList");
 const newTodoinput = document.getElementById("newtodoinput");
 const addTodoBtn = document.getElementById("addTodoBtn");
